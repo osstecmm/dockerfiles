@@ -10,13 +10,18 @@ A collection of dockerfiles used at Tec MM projects
 ## Directory hierarchy per project
 
 ```
+.
 ├── matefacil
-   ├── Dockerfile
-   └── internals
-       └── generators
-           ├── arithmetic
-           │   └── Dockerfile
-           └── inequality
-               └── Dockerfile
+│   ├── Dockerfile
+│   └── internals
+│       └── generators
+│           ├── arithmetic
+│           │   └── Dockerfile
+│           └── inequality
+│               └── Dockerfile
+│
+└── web-app-template
+    └── Dockerfile
+
 ```
 
